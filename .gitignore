@@ -1,0 +1,10 @@
+.DS_Store
+/Build/*
+/Distribution/*
+xcuserdata
+Resources/OktaVerify/UITest-Info.plist
+Sources/Framework/FoneMonkey/FoneMonkeyRunner.plist
+*.pyc
+.idea
+Pods
+Podfile.lock
