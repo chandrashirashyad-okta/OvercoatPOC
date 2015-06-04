@@ -12,6 +12,8 @@
 
 static NSString * const kBaseURL = @"http://rain.okta1.com:1802/api/v1/";
 static NSString * const kAuthToken = @"SSWS 00vw3Y13XbT_Dbo7nBneP2uQH6MdbyLCFhz2LmDrNL";
+static NSString * const kUsername = @"Administrator1";
+static NSString * const kPassword = @"Abcd1234";
 
 @interface AppDelegate ()
 
@@ -163,8 +165,8 @@ static NSString * const kAuthToken = @"SSWS 00vw3Y13XbT_Dbo7nBneP2uQH6MdbyLCFhz2
 
     // Overcoat Tests
     NSDictionary *parameters = @{
-                                 @"username": @"administrator1",
-                                 @"password": @"Abcd1234"
+                                 @"username": kUsername,
+                                 @"password": kPassword
                                  };
 
     AuthAPIClient *authAPIClient = [[AuthAPIClient alloc] initWithBaseURL:[NSURL URLWithString:kBaseURL]];
